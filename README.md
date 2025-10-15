@@ -594,8 +594,6 @@ See [examples/](examples/) for complete implementations:
 
 - **Email**: dev@cogniolab.com
 - **GitHub Issues**: [Report bugs](https://github.com/cogniolab/agent-monitor/issues)
-- **Discussions**: [Ask questions](https://github.com/cogniolab/agent-monitor/discussions)
-- **Documentation**: [Full docs](https://docs.cogniolab.com/agent-monitor)
 
 ---
 
