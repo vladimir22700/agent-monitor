@@ -590,10 +590,15 @@ See [examples/](examples/) for complete implementations:
 
 ---
 
-## 📧 Support
+## 💬 Community
 
+Join our community to ask questions, share ideas, and connect with other developers monitoring and debugging AI agents!
+
+- **[GitHub Discussions](https://github.com/cogniolab/agent-monitor/discussions)** - Ask questions, share your work, and discuss best practices
+- **[GitHub Issues](https://github.com/cogniolab/agent-monitor/issues)** - Bug reports and feature requests
 - **Email**: dev@cogniolab.com
-- **GitHub Issues**: [Report bugs](https://github.com/cogniolab/agent-monitor/issues)
+
+We're building a supportive community where developers help each other make AI agents observable and debuggable. Whether you're just getting started with observability or managing production systems, your questions and contributions are welcome!
 
 ---
 
