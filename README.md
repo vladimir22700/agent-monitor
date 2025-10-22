@@ -445,6 +445,67 @@ helm install agent-monitor agent-monitor/agent-monitor
 
 ## 🔌 Integrations
 
+### OpenTelemetry (NEW! ✨)
+
+Export agent telemetry to enterprise observability platforms:
+
+**Jaeger (Open Source)**:
+```python
+from agent_monitor.exporters import OpenTelemetryExporter, create_jaeger_config
+
+config = create_jaeger_config(service_name="my-agent")
+exporter = OpenTelemetryExporter(config)
+exporter.start()
+
+# Export agent execution
+exporter.export_agent_execution(
+    agent_name="customer_support",
+    operation="handle_inquiry",
+    duration_seconds=2.3,
+    cost_usd=0.05,
+    tokens_input=1500,
+    tokens_output=500,
+    success=True,
+)
+```
+
+**Datadog (Commercial APM)**:
+```python
+from agent_monitor.exporters import create_datadog_config
+
+config = create_datadog_config(
+    service_name="my-agent",
+    api_key=os.getenv("DD_API_KEY")
+)
+exporter = OpenTelemetryExporter(config)
+exporter.start()
+```
+
+**New Relic (Full-Stack Observability)**:
+```python
+from agent_monitor.exporters import create_newrelic_config
+
+config = create_newrelic_config(
+    service_name="my-agent",
+    api_key=os.getenv("NEW_RELIC_API_KEY")
+)
+exporter = OpenTelemetryExporter(config)
+exporter.start()
+```
+
+**Supported Platforms**:
+- ✅ Jaeger (open-source distributed tracing)
+- ✅ Datadog (full-stack APM)
+- ✅ New Relic (full-stack observability)
+- ✅ Grafana Cloud
+- ✅ Prometheus (via OTLP)
+- ✅ AWS X-Ray
+- ✅ Google Cloud Trace
+
+[View Integration Examples →](examples/opentelemetry-integration/README.md)
+
+---
+
 ### Prometheus
 
 ```python
@@ -515,6 +576,8 @@ class AgentMonitor:
 - [x] Web dashboard
 - [x] Cost tracking
 - [x] Real-time tracing
+- [x] OpenTelemetry integration ⭐ NEW
+- [x] Jaeger/Datadog/New Relic exporters ⭐ NEW
 - [ ] LlamaIndex support
 - [ ] AutoGPT support
 - [ ] Alerting system
@@ -546,6 +609,7 @@ See [examples/](examples/) for complete implementations:
 - **Claude**: Monitor Claude agents
 - **LangChain**: Monitor LangChain agents
 - **Multi-Agent**: Complex workflow monitoring
+- **OpenTelemetry Integration**: Export to Jaeger, Datadog, New Relic ⭐ NEW
 
 ---
 
@@ -568,6 +632,7 @@ See [examples/](examples/) for complete implementations:
 - ✅ Token usage tracking
 - ✅ Cost per operation
 - ✅ LLM interaction traces
+- ✅ **Plus: Now integrates with DataDog, New Relic, and Jaeger!** ⭐ NEW
 
 ---
 
